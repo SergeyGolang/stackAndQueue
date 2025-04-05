@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"stack/pkg/queue"
+
+	"github.com/SergeyGolang/stack/pkg/queue"
 )
 
 func main() {

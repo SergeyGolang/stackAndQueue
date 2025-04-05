@@ -2,6 +2,15 @@ package queue
 
 import "errors"
 
+/*
+A queue implements FIFO (Fast In, First Out).
+A queue has four methods:
+ 1. Enqueue - append a value
+ 2. Dequeue - return and remove the last element
+ 3. Front - retrieve the last element
+ 4. IsEmpty - check stack if the stack is empty
+*/
+
 type Queue struct {
 	items []interface{}
 }
